@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #08080b;
+  --foreground: #f4f4f5;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button, a { -webkit-tap-highlight-color: transparent; }
+
+.container-shop {
+  width: min(1200px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.glow {
+  box-shadow: 0 0 70px rgba(124, 58, 237, .16);
+}
